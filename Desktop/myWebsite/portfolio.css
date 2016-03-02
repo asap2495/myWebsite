@@ -1,0 +1,172 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100vw;
+	background-color: lightcyan; 
+}
+/*
+nav {
+	height: 100px;
+	background-color: #505050;
+	padding-left: 10px;
+}
+*/
+.navigation ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.navigation li {
+	float: left;
+	display: inline-block;
+	margin-right: 1px;
+}
+
+.navigation .nav-links {
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 800;
+    min-width: 140px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    text-align: center;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	background: #2f3036;
+}
+
+li:hover .nav-links {
+	color: #2f3036;
+	height: 40px;
+	line-height: 40px;
+	background: #19c589;
+}
+
+li:hover ul .nav-links {
+	background: #f3f3f3;
+}
+
+li:hover ul .nav-links:hover {
+	background: #19c589;
+	color: #fff;
+}
+
+#home {
+	float: left;
+	display: block;
+}
+
+.intro-section {
+	height: 100%;
+	width: 100%;
+	padding-top: 50px;
+	background-color: lightcyan; 
+	text-align: center;
+}
+
+#intro-text h1 {
+	padding-top: 75px;
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+header .intro-text h2 {
+    font-size: 2.25em;
+    font-weight: 300;
+}
+
+.about-section {
+	padding-top: 75px;
+	height: 100%;
+	width: 100%;
+	background-color: lightcyan; 
+}
+
+.about-section h1 {
+	margin: 0;
+	padding-top: 50px;
+	text-align: center;
+	display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.about-section .about-me {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+
+.writing-section {
+	padding-top: 75px;
+	height: 100%;
+	width: 100%;
+	background-color: lightcyan;
+}
+
+.writing-section h1 {
+	margin: 0;
+	padding-top: 50px;
+	text-align: center;
+	display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.writing-section .writings {
+	padding: 15px;
+	text-align: center;
+}
+
+.resume {
+	padding-top: 50px;
+	background-color: lightcyan;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.container {
+	padding-top: 50px;
+}
+
+#intro {
+	text-align: center;
+}
+
+#experience {
+	padding-top: 10px;
+}
+
+#achievments {
+	padding-top: 10px;
+}
+
+#skills {
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+
+#skills ul {
+	margin: 0;
+}
+
+footer {
+	padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    background-color: grey;
+}
+
+@import url(https://urldefense.proofpoint.com/v2/url?u=http-3A__fonts.googleapis.com_css-3Ffamily-3DOpen-2BSans-3A400italic-2C400-2C700&d=BQIFAg&c=y2w-uYmhgFWijp_IQN0DhA&r=gQ-XWo2CWoyZSG-ouq2U_TRrs6IIqqpBqgXbsgOqjMI&m=M4M1pkaY863eOe8lzxxvJd2LIWNVCYMJZ8J4YOLxiIE&s=q-toDodHRX18A-B-zigVoERdPgvxQJtwrO0j6pZNLvc&e= |Hind:400,700);
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Hind', sans-serif;*/

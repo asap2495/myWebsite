@@ -1,0 +1,49 @@
+* {
+ color: black;
+ background: transparent;
+ font-size: 12pt;
+ font-family: garamond, serif;
+}
+
+@page {
+ margin: 0.5in;
+}
+
+nav {
+ display: none;
+}
+
+a {
+text-decoration: none;
+
+}
+
+a[href$=".html"] {
+   display: none;
+}
+
+a[href$=".html"]:after {
+   display: none;
+}
+
+a[href^="https://urldefense.proofpoint.com/v2/url?u=http-3A__&d=BQICAg&c=y2w-uYmhgFWijp_IQN0DhA&r=gQ-XWo2CWoyZSG-ouq2U_TRrs6IIqqpBqgXbsgOqjMI&m=FFP1Evr0B7jIZLvgOo3iqbOxHC9ofqUKRzAIdxFUtbs&s=yAmnYKoeWsoE1f3Hg2dziOF6qiNQjiTzK0UZbjLNuTk&e= "],
+a[href^="https://urldefense.proofpoint.com/v2/url?u=https-3A__&d=BQICAg&c=y2w-uYmhgFWijp_IQN0DhA&r=gQ-XWo2CWoyZSG-ouq2U_TRrs6IIqqpBqgXbsgOqjMI&m=FFP1Evr0B7jIZLvgOo3iqbOxHC9ofqUKRzAIdxFUtbs&s=m1NYZxRDUyaL7BLQNw2WXONia9vWBj2BzNUscSqybys&e= "] {
+   display: inline;
+}
+
+a[href^="https://urldefense.proofpoint.com/v2/url?u=http-3A__&d=BQICAg&c=y2w-uYmhgFWijp_IQN0DhA&r=gQ-XWo2CWoyZSG-ouq2U_TRrs6IIqqpBqgXbsgOqjMI&m=FFP1Evr0B7jIZLvgOo3iqbOxHC9ofqUKRzAIdxFUtbs&s=yAmnYKoeWsoE1f3Hg2dziOF6qiNQjiTzK0UZbjLNuTk&e= "]:after,
+a[href^="https://urldefense.proofpoint.com/v2/url?u=https-3A__&d=BQICAg&c=y2w-uYmhgFWijp_IQN0DhA&r=gQ-XWo2CWoyZSG-ouq2U_TRrs6IIqqpBqgXbsgOqjMI&m=FFP1Evr0B7jIZLvgOo3iqbOxHC9ofqUKRzAIdxFUtbs&s=m1NYZxRDUyaL7BLQNw2WXONia9vWBj2BzNUscSqybys&e= "] {
+   content: " ("attr(href) ") ";
+}
+
+header {
+   font-size: 36pt;
+}
+
+h2 {
+   font-size: 24pt;
+}
+
+.dates {
+   float: right;
+}
